@@ -1,0 +1,14 @@
+{
+    "name": "Redis Dev",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "golang.Go"
+        ]
+      }
+    },
+    "forwardPorts": [6379]
+  }
